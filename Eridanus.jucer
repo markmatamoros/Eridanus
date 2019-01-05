@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="F2Bzt7" name="Eridanus" projectType="guiapp" jucerVersion="5.3.2">
+  <MAINGROUP id="jt5MDY" name="Eridanus">
+    <GROUP id="{6E9F95A2-4251-AEC8-D63B-9022AB105C8C}" name="Source">
+      <FILE id="sRniJX" name="OutputModule.cpp" compile="1" resource="0"
+            file="Source/OutputModule.cpp"/>
+      <FILE id="Zf5g5X" name="OutputModule.h" compile="0" resource="0" file="Source/OutputModule.h"/>
+      <FILE id="YGBbW7" name="SaturationModule.cpp" compile="1" resource="0"
+            file="Source/SaturationModule.cpp"/>
+      <FILE id="mD2c1U" name="SaturationModule.h" compile="0" resource="0"
+            file="Source/SaturationModule.h"/>
+      <FILE id="nou7Fe" name="LFOModule.cpp" compile="1" resource="0" file="Source/LFOModule.cpp"/>
+      <FILE id="nZH8Tn" name="LFOModule.h" compile="0" resource="0" file="Source/LFOModule.h"/>
+      <FILE id="JPFgB9" name="EnvFilterModule.cpp" compile="1" resource="0"
+            file="Source/EnvFilterModule.cpp"/>
+      <FILE id="xXkldR" name="EnvFilterModule.h" compile="0" resource="0"
+            file="Source/EnvFilterModule.h"/>
+      <FILE id="Puck2K" name="AmpFilterModule.cpp" compile="1" resource="0"
+            file="Source/AmpFilterModule.cpp"/>
+      <FILE id="a5HHwD" name="AmpFilterModule.h" compile="0" resource="0"
+            file="Source/AmpFilterModule.h"/>
+      <FILE id="UXmfGW" name="InputModule.cpp" compile="1" resource="0" file="Source/InputModule.cpp"/>
+      <FILE id="BHNJZk" name="InputModule.h" compile="0" resource="0" file="Source/InputModule.h"/>
+      <FILE id="XPmFP2" name="OscillatorModule.cpp" compile="1" resource="0"
+            file="Source/OscillatorModule.cpp"/>
+      <FILE id="GU1ROD" name="OscillatorModule.h" compile="0" resource="0"
+            file="Source/OscillatorModule.h"/>
+      <FILE id="jn7UGn" name="KeyboardScene.cpp" compile="1" resource="0"
+            file="Source/KeyboardScene.cpp"/>
+      <FILE id="NEPRp0" name="KeyboardScene.h" compile="0" resource="0" file="Source/KeyboardScene.h"/>
+      <FILE id="gnifLc" name="Keys.cpp" compile="1" resource="0" file="Source/Keys.cpp"/>
+      <FILE id="D9jT8D" name="Keys.h" compile="0" resource="0" file="Source/Keys.h"/>
+      <FILE id="hsCJ4s" name="CustomComponent.cpp" compile="1" resource="0"
+            file="Source/CustomComponent.cpp"/>
+      <FILE id="P7hChg" name="CustomComponent.h" compile="0" resource="0"
+            file="Source/CustomComponent.h"/>
+      <FILE id="yaO6P5" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="FSbDuq" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="cP5Iab" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../DevTools/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../DevTools/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../DevTools/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../DevTools/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../DevTools/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../DevTools/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../DevTools/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../DevTools/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../DevTools/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../DevTools/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../DevTools/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../DevTools/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../DevTools/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../DevTools/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../DevTools/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <LINUX buildEnabled="1"/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
